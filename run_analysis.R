@@ -1,4 +1,5 @@
 library(plyr)
+# Merge the training and test sets to create one data set
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt")
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt")
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt")
